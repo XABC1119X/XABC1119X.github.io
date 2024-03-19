@@ -16,6 +16,8 @@
 
 .Steampunkstyle {
     background-color: #F9FF00;
+    color: #020202;
+    font-size: larger;
 }
 #captain img {
     -webkit-box-shadow: 30px 15px 3px #574648;
