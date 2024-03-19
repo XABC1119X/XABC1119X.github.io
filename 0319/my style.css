@@ -1,1 +1,13 @@
 @charset "utf-8";
+.titlestyle {
+    color: #D800FF;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px #FFFFFF;
+    box-shadow: 0px 0px #FFFFFF;
+    text-decoration: underline;
+    font-size: xx-large;
+    text-transform: capitalize;
+    /* [disabled]border-color: #9F00FF; */
+}
+.Steampunkstyle {
+}
