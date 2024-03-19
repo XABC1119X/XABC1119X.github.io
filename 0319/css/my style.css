@@ -17,3 +17,9 @@
 .Steampunkstyle {
     background-color: #F9FF00;
 }
+#captain img {
+    -webkit-box-shadow: 30px 15px 3px #574648;
+    box-shadow: 30px 15px 3px #574648;
+    background-repeat: repeat;
+    text-align: center;
+}
