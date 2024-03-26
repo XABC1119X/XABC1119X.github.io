@@ -1,0 +1,7 @@
+@charset "utf-8";
+body {
+    color: #FF0004;
+    font-size: larger;
+    text-transform: capitalize;
+    background-color: #1FA0C8;
+}
