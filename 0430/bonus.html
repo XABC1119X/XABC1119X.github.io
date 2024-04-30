@@ -8,13 +8,17 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 <body>
-<form class="row row-cols-sm-auto g-2 align-items-center">
-  <div class="input-group mb-3 ">
+<form>
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+	<div class="input-group mb-3 ">
     <span class="input-group-text" id="addon1">@</span>
     <input type="text" class="form-control" placeholder="Username">
   </div>
-	
- <div class="col-sm-4">
+</div>
+
+<div class="col-md-3">
     <select id="userTown" class="form-select">
     <option selected>選擇借閱書籍...</option>
     <option>刺殺騎士團長</option>
@@ -22,14 +26,20 @@
 	<option>其他</option>
     </select>
   </div>
-
-   <div class="form-check">
+</div>
+<div class="col-md-3">
+<div class="form-check">
     <input class="form-check-input" type="checkbox" value="CK3" id="CK3" disabled>
     <label class="form-check-label" for="CK3">我同意借書規則</label>
-  </div>
-
+</div>
+<div class="col-md-3">
   <button type="submit" class="btn btn-primary">提交</button>
+
+</div>
+</div>
+</div>
 </form>
+  
 
 </body>
 </html>
