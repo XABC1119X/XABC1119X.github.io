@@ -17,6 +17,11 @@ body {
 	z-index:2;
 }
 
+#page-1 {
+    padding: 2em;
+	z-index:2
+}
+
 #page-2 {
     padding: 2em;
 	z-index:2
