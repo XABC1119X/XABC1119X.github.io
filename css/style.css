@@ -5,6 +5,7 @@
 
 body {
     font-family: Consolas, 'Courier New', monospace;
+	 z-index:1;
 }
 
 #page-2 {
