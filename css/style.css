@@ -19,6 +19,9 @@ body {
 
 h1 {
 	color: aqua;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 70px;
+	font-weight: 500;
 }
 
 #page-1 {
@@ -28,6 +31,11 @@ h1 {
 
 .homepage {
 	z-index: 2;
+	height: 100%;
+}
+
+.mid {
+	align-items: center;
 }
 
 .iframe {
